@@ -1,313 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+
 @media only screen and (max-width:600px) {
 
 
 
 
-    @media only screen and (max-width:600px) {
+    body {
+        margin: 0;
+        font-family: 'Philosopher', sans-serif;
+    }
 
+    /*************** corner for 3rd section grid ***************/
+    .corner {
+        background-color: #e5a23b;
+        color: black;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 2px;
+        line-height: 20px;
+    }
 
-
-
-        body {
-            margin: 0;
-            font-family: cursive;
-        }
-    
-        /*************** corner for 3rd section grid ***************/
-        .corner {
-            background-color: #e5a23b;
-            color: black;
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            top: -8px;
-            left: -8px;
-            border-radius: 5px;
-            text-align: center;
-            padding: 2px;
-            line-height: 20px;
-        }
-    
-        /*************************************/
-        nav {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: stretch;
-            flex-wrap: wrap;
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 10px;
-            /* padding-top: 10px; */
-            z-index: 1000;
-        }
-    
-        nav a {
-            color: #FFF;
-            text-decoration: none;
-            margin: 10px;
-            font-size: 14px;
-            font-family: cursive;
-        }
-    
-        nav img {
-            width: 30px;
-            height: 30px;
-        }
-    
-        nav div {}
-    
-        main {
-    
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-    
-            background: #e5a23b;
-            text-align: ;
-        }
-    
-        main>div:nth-child(1) {
-            background-image: url("/images/hero.jpg");
-            text-align: center;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 70vh;
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .60);
-            color: #FFF;
-        }
-    
-        main>div:nth-child(1) h2 {
-            color: white;
-            padding-top: 20vh;
-            text-align: center;
-            font-family: cursive;
-            font-size: x-large;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 108.412%;
-            /* 113.833px */
-        }
-    
-        main>div:nth-child(1) p {
-            font-size: 14px;
-            padding: 0 30px;
-        }
-    
-        main>div:nth-child(1) .about_btn {
-            display: block;
-            margin: auto;
-            text-align: center;
-            margin-top: 25px;
-            width: 100px;
-            font-size: 14px;
-            padding: 10px 20px 10px 20px;
-            border-radius: 60px;
-            border: 1px solid #FFF;
-            text-decoration: none;
-            color: #FFF;
-        }
-    
-        main>div:nth-child(1) .about_btn:hover {
-            background-color: rgba(255, 166, 0, 0.704);
-        }
-    
-    
-        main>div:nth-child(2) {
-            background-image: url("/images/12979913_5078151.jpg");
-            background-size: cover;
-            background-position: center;
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-            width: 100%;
-            height: 70vh;
-        }
-    
-        main>div:nth-child(2) h2 {
-            color: white;
-            margin: 10vh auto 50px auto;
-            width: fit-content;
-            text-align: center;
-            font-size: x-large;
-        }
-    
-        .student_course {
-            width: 100%;
-                    margin: auto;
-            display: grid;
-            grid-template-columns: auto auto;
-            justify-items: center;
-        }
-    
-        .student_course div {
-            width: 50%;
-            margin: 20px;
-            background-color: #e08e13df;
-            border-radius: 25px;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            font-weight: bold;
-            font-size: medium;
-        }
-    
-        main>div:nth-child(3) {
-            text-align: center;
-            width: auto;
-            height: auto;
-           padding-bottom: 50px;
-            /*     background-color: #888887;
-     */
-            background-image: url("/images/darts-arrows-target-center-business-concept.jpg");
-            background-size: cover;
-            background-position: center;
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .50);
-        }
-    
-        main>div:nth-child(3)>h2 {
-            padding: 30px;
-            padding-top: 10vh;
-            padding-bottom: 5vh;
-            color: white;
-            font-size: x-large;
-        }
-    
-        main>div:nth-child(3)>.grid {
-            display: grid;
-            grid-template-columns: auto;
-            justify-items: center;
-            row-gap: 25px;
-            column-gap: 20px;
-            width: 90%;
-            margin: auto;
-        }
-    
-        main>div:nth-child(3)>.grid>div {
-            position: relative;
-            background-color: #0540F2;
-            color: #FFF;
-            font-size: larger;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 15px;
-            align-items: center;
-            width: 90%;
-            border-radius: 10px;
-            height: 20vh;
-        }
-    
-        main>div:nth-child(3)>.grid>div>div:nth-child(1)>svg {
-            width: 40px;
-            height: 40px;
-        }
-    
-        main>div:nth-child(3)>.grid>div>div:nth-child(2)>h3 {
-            margin: 0;
-            text-align: left;
-            margin-bottom: 5px;
-            font-size: large;
-        }
-    
-        main>div:nth-child(3)>.grid>div>div:nth-child(2)>p {
-            font-size: 16px;
-            margin: 0;
-            margin-bottom: 10px;
-            text-align: left;
-        }
-    
-        main>div:nth-child(4) {
-            height: ;
-            text-align: center;
-            background-image: url("/images/idea-concept-with-light-bulb.jpg");
-            background-position: center;
-            background-size: cover;
-            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
-            padding: 20px 0;
-    
-        }
-    
-        main>div:nth-child(4)>h2 {
-            margin: 0;
-            margin-bottom:30px;
-            text-align: left;
-            padding-left: 30px;
-            font-size: x-large;
-        }
-    
-        main>div:nth-child(4)>.Gallery {
+    /*************************************/
+    nav {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 10px;
+        /* padding-top: 10px; */
+        z-index: 1000;
+    }
+
+    nav a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 14px;
+        
+    }
+
+    nav img {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav div {}
+
+    main {
+
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 20px;
+
+        background: #e5a23b;
+        text-align: ;
+    }
+
+    main>div:nth-child(1) {
+        background-image: url("/images/hero.jpg");
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .60);
+        color: #FFF;
+    }
+
+    main>div:nth-child(1) h2 {
+        color: white;
+        padding-top: 20vh;
+        text-align: center;
+        
+        font-size: x-large;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 108.412%;
+        /* 113.833px */
+    }
+
+    main>div:nth-child(1) p {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+
+    main>div:nth-child(1) .about_btn {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+        width: 100px;
+        font-size: 14px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 60px;
+        border: 1px solid #FFF;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    main>div:nth-child(1) .about_btn:hover {
+        background-color: rgba(255, 166, 0, 0.704);
+    }
+
+
+    main>div:nth-child(2) {
+        background-image: url("/images/12979913_5078151.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 70vh;
+    }
+
+    main>div:nth-child(2) h2 {
+        color: white;
+        margin: 10vh auto 50px auto;
+        width: fit-content;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .student_course {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+
+    .student_course div {
+        width: 50%;
+        margin: 20px;
+        background-color: #e08e13df;
+        border-radius: 25px;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    main>div:nth-child(3) {
+        text-align: center;
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+        /*     background-color: #888887;
+     */
+        background-image: url("/images/darts-arrows-target-center-business-concept.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .50);
+    }
+
+    main>div:nth-child(3)>h2 {
+        padding: 30px;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        color: white;
+        font-size: x-large;
+    }
+
+    main>div:nth-child(3)>.grid {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+        row-gap: 25px;
+        column-gap: 20px;
         width: 90%;
         margin: auto;
-        
-        }
-        
-        .coulmn {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            width: 30%;
-        }
-        
-        
-        .Gallery img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: cover;
-        }
-            
-        /******************footer*************/
-        .footer {
-            background-color: #0540F2;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 10px 30px 30px 30px;
-            color: #FFF;
-            justify-content: space-around;
-            flex-direction: row;
-        }
-    
-        .footer a {
-            color: #FFF;
-            display: block;
-            margin-top: 10px;
-            color: white;
-            text-decoration: none;
-            font-size: 14px;
-        }
-    
-        .footer h4 {
-            font-size: large;
-            margin: ;
-        }
-    
-        .footer h3 {
-            font-size: x-large;
-            margin: 0;
-            padding-top: 20px;
-        }
-    
-        .footer>div:nth-child(1) a {
-            display: inline;
-        }
-    
-        .footer p {
-            margin: 0;
-            padding-top: 10px;
-            font-size: 14px;
-        }
-    
-        .footer div {
-            width: 40%;
-            /* text-align: center; */
-            /* padding: 5px; */
-        }
-    
-    
-    
     }
+
+    main>div:nth-child(3)>.grid>div {
+        position: relative;
+        background-color: #0540F2;
+        color: #FFF;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        width: 90%;
+        border-radius: 10px;
+        height: 20vh;
+    }
+
+    main>div:nth-child(3)>.grid>div>div:nth-child(1)>svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    main>div:nth-child(3)>.grid>div>div:nth-child(2)>h3 {
+        margin: 0;
+        text-align: left;
+        margin-bottom: 5px;
+        font-size: large;
+    }
+
+    main>div:nth-child(3)>.grid>div>div:nth-child(2)>p {
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    main>div:nth-child(4) {
+        height: ;
+        text-align: center;
+        background-image: url("/images/idea-concept-with-light-bulb.jpg");
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
+        padding: 20px 0;
+
+    }
+
+    main>div:nth-child(4)>h2 {
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: left;
+        padding-left: 30px;
+        font-size: x-large;
+    }
+
+    main>div:nth-child(4)>.Gallery {
+        width: 90%;
+        margin: auto;
+        columns: 2;
+        column-gap: 10px;
+    }
+
+    .Gallery div {
+        margin-bottom: 10px;
+    }
+
+
+    .Gallery img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
+
+    /******************footer*************/
+    .footer {
+        background-color: #0540F2;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 30px 30px 30px;
+        color: #FFF;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .footer a {
+        color: #FFF;
+        display: block;
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .footer h4 {
+        font-size: large;
+        margin: ;
+    }
+
+    .footer h3 {
+        font-size: x-large;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .footer>div:nth-child(1) a {
+        display: inline;
+    }
+
+    .footer p {
+        margin: 0;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .footer div {
+        width: 40%;
+        /* text-align: center; */
+        /* padding: 5px; */
+    }
+
+
+
+}
