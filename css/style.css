@@ -111,7 +111,7 @@ main>div:nth-child(2) {
 
 main>div:nth-child(2) h2 {
     color: white;
-    margin: 20vh auto 50px auto;
+    margin: 18vh auto 50px auto;
     width: fit-content;
     text-align: center;
     font-size: xx-large;
@@ -203,7 +203,7 @@ main>div:nth-child(3)>.grid>div>div:nth-child(2)>p {
 }
 
 main>div:nth-child(4) {
-    height: 100vh;
+    height: ;
     text-align: center;
     background-image: url("/images/idea-concept-with-light-bulb.jpg");
     background-position: center;
@@ -224,15 +224,24 @@ main>div:nth-child(4)>.Gallery {
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 15px;
+    column-gap: 15px;
     justify-items: center;
+    width: 90%;
+    margin: auto;
+    
 
 }
 
 main>div:nth-child(4)>.Gallery>div {
-    border: 2px solid #FFB305;
-    border-radius: 10px;
-    padding: 50px 150px;
-
+    border: 1px ;
+    border-radius: 20px;
+    overflow: hidden;
+   width: fit-content;
+   height: fit-content;
+}
+.Gallery img {
+    width: 100%;
+    height: auto;
 }
 
 /******************footer*************/
