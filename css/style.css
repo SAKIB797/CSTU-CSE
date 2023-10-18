@@ -182,7 +182,8 @@ main>div:nth-child(3)>.grid>div {
     align-items: center;
     width: 90%;
     border-radius: 10px;
-    height: 20vh;
+    height: 25vh;
+    
 }
 
 main>div:nth-child(3)>.grid>div>div:nth-child(1)>svg {
@@ -202,6 +203,11 @@ main>div:nth-child(3)>.grid>div>div:nth-child(2)>p {
     margin: 0;
     margin-bottom: 10px;
     text-align: left;
+    text-wrap: wrap;
+   
+}
+main>div:nth-child(3)>.grid>div>div:nth-child(2){
+    width: 60%;
 }
 
 main>div:nth-child(4) {
