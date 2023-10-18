@@ -237,34 +237,29 @@
         }
     
         main>div:nth-child(4)>.Gallery {
-            display: flex;
-            flex-direction: row;
-            justify-items: center;
-            justify-content: space-around;
-            width: 90%;
-            margin: auto;
-    
-    
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+        
         }
-    
+        
         .coulmn {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
             width: 30%;
         }
-    
-        .coulmn div {
-            border: 1px;
-            /* border-radius: 20px; */
-            overflow: hidden;
-            margin-bottom: 20px;
-            /* height: fit-content; */
-        }
-    
+        
+        
         .Gallery img {
             width: 100%;
-            height: auto;
+            height: 100%;
             border-radius: 10px;
+            object-fit: cover;
         }
-    
+            
         /******************footer*************/
         .footer {
             background-color: #0540F2;

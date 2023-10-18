@@ -224,29 +224,27 @@ main>div:nth-child(4)>h2 {
 
 main>div:nth-child(4)>.Gallery {
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-around;
+    gap: 20px;
     width: 90%;
     margin: auto;
-
+    justify-content: center;
 
 }
 
 .coulmn {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
     width: 30%;
 }
 
-.coulmn div {
-    border: 1px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
 
 .Gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 /******************footer*************/
