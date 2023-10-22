@@ -11,16 +11,7 @@
 </head>
 
 <body>
-    <nav>
-        <div><a href="">Home</a></div>
-        <div><a href=""><img src="images/cstu_logo.png" alt=""></a></div>
-        <div><a href="">Notices</a></div>
-
-        <!--   <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-          </div>   -->
-    </nav>
-
+   <header id="header"></header>
     <main>
         <div>
 
@@ -294,15 +285,12 @@
             <div class="Gallery">
                 <div><img src="/images/temp_campus.jpg" alt=""></div>
                 <div><img src="/images/lab1.jpg" alt=""></div>
-                <div><img src="/images/idea-concept-with-light-bulb.jpg" alt=""></div>
                 <div><img src="/images/vcwithdipumoni.jpg" alt=""></div>
-                <div><img src="/images/vcwithpresident.jpg" alt=""></div>
                 <div><img src="/images/classroom.jpg" alt=""></div>
-                <div><img src="/images/hero.jpg" alt=""></div>
                 <div><img src="/images/vcwithpresident.jpg" alt=""></div>
-
             </div>
         </div>
+        
         <div class="footer">
             <div>
                 <h3>CSTU</h3>
@@ -335,8 +323,18 @@
 
     </main>
     <script src="js/main.js"></script>
-    <script src="js/scroll_indicator.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('#header').load('header.html');
+    </script>
+  <script>
+    function openNotice() {
+    document.getElementById("myNotice").style.width = "100%";
+  }
+  function closeNotice() {
+    document.getElementById("myNotice").style.width = "0%";
+  }
+</script>
 </body>
 
 </html>
