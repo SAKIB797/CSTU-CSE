@@ -8,6 +8,7 @@ body {
 /*************** corner for 3rd section grid ***************/
 .corner {
     background-color: #e5a23b;
+    display: none;
     color: black;
     width: 20px;
     height: 20px;
