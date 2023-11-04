@@ -66,7 +66,7 @@
     }
 
     main>div:nth-child(1) {
-        background-image: url("/images/hero.jpg");
+        background-image: url("images/hero.jpg");
         text-align: center;
         background-size: cover;
         background-position: center;
@@ -112,7 +112,7 @@
 
 
     main>div:nth-child(2) {
-        background-image: url("/images/12979913_5078151.jpg");
+        background-image: url("images/12979913_5078151.jpg");
         background-size: cover;
         background-position: center;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
@@ -155,7 +155,7 @@
         padding-bottom: 50px;
         /*     background-color: #888887;
      */
-        background-image: url("/images/darts-arrows-target-center-business-concept.jpg");
+        background-image: url("images/darts-arrows-target-center-business-concept.jpg");
         background-size: cover;
         background-position: center;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .50);
@@ -218,7 +218,7 @@
     main>div:nth-child(4) {
         height: ;
         text-align: center;
-        background-image: url("/images/idea-concept-with-light-bulb.jpg");
+        background-image: url("images/idea-concept-with-light-bulb.jpg");
         background-position: center;
         background-size: cover;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
