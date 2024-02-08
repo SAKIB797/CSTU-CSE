@@ -1,4 +1,4 @@
-# CSTU-CSE DEMO WEBSITE
+# CSTU CSE-02 DEMO WEBSITE
 Demo website for dept. of Computer Science & Engineering at Chandpur Science & Technology University.
 ## Author Information
 :pencil2: Iftekhar Sakib  
