@@ -68,18 +68,21 @@
 
     .notice .offbtn {
         position: absolute;
-bottom: 15px;
-background-color: gainsboro;
-height: 40px;
-width: 40px;
-border-radius: 10px;
-text-align: center;
+        bottom: 20px;
+        background-color: gainsboro;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        text-align: center;
         left: 50%;
         transform: translateX(-50%);
         font-size: 35px;
         color: red;
         text-decoration: none;
         z-index: 1000;
+    }
+    .notice .offbtn:hover{
+        border: 1.5px solid red;
     }
 
 
@@ -169,7 +172,7 @@ text-align: center;
         <img src="images/cstu_logo_cse2.jpg" alt="">
         <h2>Please enter the password to access the content:</h2>
         <form id="access-form">
-            <input type="password" id="password" placeholder="Enter Password"  required autofocus>
+            <input type="password" id="password" placeholder="Enter Password" required autofocus>
             <input type="submit" value="Submit">
         </form>
     </div>
