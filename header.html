@@ -2,9 +2,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
     .inverted {
-        background-color:#285880;
+        background-color: #285880;
         box-shadow: 0 3px 5px 0.3px rgba(169, 162, 162, 0.2);
-      
+
     }
 
     body {
@@ -33,7 +33,9 @@
         text-decoration: none;
         font-size: 20px;
     }
-    nav a:hover, a:active{
+
+    nav a:hover,
+    a:active {
         color: orange;
     }
 
@@ -41,18 +43,18 @@
         width: 40px;
         height: 40px;
     }
+
     nav div {
         width: 15%;
         text-align: center;
     }
- /**************************for notice******************************/
+
+    /**************************for notice******************************/
     .notice {
         height: 100%;
         width: 0%;
         position: fixed;
-        /* Stay in place */
         z-index: 10000;
-        /* Sit on top */
         right: 0;
         top: 0;
         /* Black fallback color */
@@ -72,7 +74,7 @@
         text-decoration: none;
     }
 
-    
+
 
     button {
         background-color: transparent;
@@ -93,6 +95,7 @@
 
         }
     }
+
     /****************css for notice*************/
     #password-form {
         text-align: center;
@@ -105,31 +108,38 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         font-family: ;
     }
-    input[type="password"], input[type="submit"] {
+
+    input[type="password"],
+    input[type="submit"] {
         width: 100%;
         padding: 10px;
         margin: 5px 0;
         box-sizing: border-box;
         border-radius: 3px;
     }
-  #password-form  img{
+
+    #password-form img {
         width: 80px;
         height: 80px;
     }
-    #password-form h2{
-        text-align: left;font-size: 20px;
-        
+
+    #password-form h2 {
+        text-align: left;
+        font-size: 20px;
+
 
     }
-    input[type="submit"]{
-        background-color:dodgerblue;
+
+    input[type="submit"] {
+        background-color: dodgerblue;
         outline: none;
         border: none;
         color: white;
     }
-    input[type="submit"]:hover{
+
+    input[type="submit"]:hover {
         background-color: orange;
-        
+
     }
 </style>
 <!---------------------- body start------------------------------- -->
@@ -145,7 +155,7 @@
 <!-- notice start -->
 <div id="myNotice" class="notice">
     <a href="javascript:void(0)" class="offbtn" onclick="closeNotice()">&times;</a>
-   
+
     <div id="password-form">
         <img src="images/cstu_logo_cse2.jpg" alt="">
         <h2>Please enter the password to access the content:</h2>
@@ -154,12 +164,12 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-    
+
     <div id="content" style="display: none;">
         <h2>Welcome to the protected content!</h2>
         <p>This is your protected content.</p>
     </div>
-    
+
 
 </div>
 <!-- notice end -->
@@ -191,7 +201,7 @@
 
 </script>
 <script>
-    document.getElementById("access-form").addEventListener("submit", function(event) {
+    document.getElementById("access-form").addEventListener("submit", function (event) {
         event.preventDefault();
         var password = document.getElementById("password").value;
         // Replace 'your_password' with your actual password
