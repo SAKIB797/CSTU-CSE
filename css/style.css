@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: 'Philosopher', sans-serif;
+    pointer-events: none;
+    user-select: none;
 }
 
 /*************** corner for 3rd section grid ***************/
