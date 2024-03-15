@@ -3,7 +3,6 @@
 body {
     margin: 0;
     font-family: 'Philosopher', sans-serif;
-    pointer-events: none;
     user-select: none;
 }
 
@@ -211,10 +210,13 @@ main>div:nth-child(4)>.Gallery {
     margin: auto;
   columns: 3;
   column-gap: 20px;
+  pointer-events: none;
+  user-select: none;
 }
 
 .Gallery div  {
  margin-bottom: 20px;
+
 }
 
 
