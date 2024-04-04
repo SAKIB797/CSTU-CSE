@@ -2,11 +2,17 @@
     @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
     .inverted {
-        background-color: #285880;
-        box-shadow: 0 3px 5px 0.3px rgba(169, 162, 162, 0.2);
+        /* background-color: #285880;
+        box-shadow: 0 3px 5px 0.3px rgba(169, 162, 162, 0.2); */
+        background-color: rgba(0, 0, 0, 0.2);
+        /* Adjust the transparency as needed */
+        backdrop-filter: blur(10px);
+        /* Adjust the blur intensity */
 
     }
-
+    .interstitial-container{
+        min-height: 80vh !important;
+    }
     body {
         margin: 0;
         font-family: 'Philosopher', sans-serif;
@@ -179,7 +185,7 @@
 
     <div id="password-form">
         <img src="images/cstu_logo_cse2.jpg" alt="">
-        <h2>Welcome</h2>
+        <h2>Welcome to CSTU</h2>
         <!-- <form id="access-form">
             <input type="password" id="password" placeholder="Enter Password" required autofocus>
             <input type="submit"  value="Submit">
@@ -234,4 +240,3 @@
             document.getElementById('content').style.display = 'block';
         }
     </script>
-    
