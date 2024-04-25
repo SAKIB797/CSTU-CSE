@@ -3,11 +3,7 @@
 ## About
 The **CSTU-CSE** repository hosts a demo website for the Department of Computer Science & Engineering at Chandpur Science & Technology University. It serves as a showcase for the department's activities, programs, and resources.
 
-## Author Information
-- **Author**: Iftekhar Sakib
-- **Email**: ihSakib@outlook.com
-- **Facebook**: <a href="https://www.facebook.com/SAKIB797" target="_blank" > Iftekhar Sakib </a>
-- **Linkedin**: <a href="www.linkedin.com/in/ihsakib" target="_blank" > ihSakib </a>
+
 
 ## Features
 - The website provides information about the department's faculty, courses, research, and events.
@@ -39,26 +35,32 @@ The **CSTU-CSE** repository hosts a demo website for the Department of Computer 
 4. **Make Changes and Contribute**:
    - If you'd like to contribute to the project:
      - Create a new branch for your changes:
+       
        ```
        git checkout -b feature/my-changes
        ```
-
      - Make your modifications (add new features, fix bugs, etc.).
-
+  
      - Commit your changes:
+       
        ```
        git add .
        git commit -m "Add feature: XYZ"
        ```
 
      - Push your changes to your forked repository:
+       
        ```
        git push origin feature/my-changes
        ```
-
      - Create a pull request on GitHub to merge your changes into the main branch.
+## Author Information
+- **Author**: Iftekhar Sakib
+- **Email**: ihSakib@outlook.com
+- **Facebook**: <a href="https://www.facebook.com/SAKIB797" target="_blank" > Iftekhar Sakib </a>
+- **Linkedin**: <a href="www.linkedin.com/in/ihsakib" target="_blank" > ihSakib </a>
 
-5. **License**:
+## License
    - The project is licensed under the MIT License. Make sure to comply with the license terms.
-
+---
 Feel free to explore, contribute, and adapt the **CSTU-CSE** website for your own purposes! 🚀🌟
