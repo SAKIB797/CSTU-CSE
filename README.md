@@ -15,6 +15,7 @@ The **CSTU-CSE** repository hosts a demo website for the Department of Computer 
    - Open your terminal or command prompt.
    - Navigate to the directory where you want to store the project.
    - Run the following command to clone the repository:
+     
      ```
      git clone https://github.com/SAKIB797/CSTU-CSE.git
      ```
