@@ -55,13 +55,14 @@ The **CSTU-CSE** repository hosts a demo website for the Department of Computer 
        git push origin feature/my-changes
        ```
      - Create a pull request on GitHub to merge your changes into the main branch.
-## Author Information
+
+
+## License
+   - The project is licensed under the MIT License. Make sure to comply with the license terms.
+## Contact
 - **Author**: Iftekhar Sakib
 - **Email**: ihSakib@outlook.com
 - **Facebook**: <a href="https://www.facebook.com/SAKIB797" target="_blank" > Iftekhar Sakib </a>
 - **Linkedin**: <a href="www.linkedin.com/in/ihsakib" target="_blank" > ihSakib </a>
-
-## License
-   - The project is licensed under the MIT License. Make sure to comply with the license terms.
 ---
 Feel free to explore, contribute, and adapt the **CSTU-CSE** website for your own purposes! 🚀🌟
