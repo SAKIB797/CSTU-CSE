@@ -118,6 +118,7 @@ main>div:nth-child(2) h2 {
 }
 
 main>div:nth-child(3) {
+    display: none;
     text-align: center;
     width: auto;
     height: 100vh;
